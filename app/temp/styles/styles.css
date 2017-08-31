@@ -464,3 +464,15 @@ img {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.site-header {
+  padding: 35px 0;
+  width: 100%;
+  background-color: darkcyan;
+  margin-bottom: 45px;
+}
+
+.site-header--text {
+    text-align: center;
+    color: #fff;
+  }
