@@ -1,0 +1,15 @@
+.wrapper {
+  text-align: center;
+  
+  &__search {
+    margin-bottom: 60px;
+  }
+  
+  &__result {
+    margin: 20px 0 50px 0;
+  }
+  
+  &__height {
+    height: 500px;
+  }
+} 

@@ -11,30 +11,28 @@
   <link rel="stylesheet" href="/temp/styles/styles.css">
   <!-- endbuild -->
   
-  <!-- jQueryCDN -->
-  <!-- end -->
   
 </head>
   
 <body>
-  <header class="site-header">
-    <div class="site-header--text">
+  <header class="header">
+    <div class="header--text">
       <h1>The wheather App</h1>
     </div>
   </header>
 
-  <div class="page-section">
-      <div>
+  <div class="wrapper">
+      <div class="wrapper__search">
         <input type="text" id="city" class="input" placeholder="City Name"> 
-        <a href="#" class="btn">Search the weather</a>
+        <a href="#" class="btn search-btn">Search the weather</a>
       </div>
-      <div>
-      <p>Data Display</p>
+      <div class="wrapper__result wrapper__height">
+      <div class ="show"></div>
       </div>
   </div>
   
-   <footer class="site-footer">
-    <div class="">
+   <footer class="footer">
+    <div class="wrapper">
       <p>Ember</p>
     </div>
   </footer>
